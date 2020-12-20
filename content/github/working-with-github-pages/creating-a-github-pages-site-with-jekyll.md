@@ -66,6 +66,10 @@ Before you can use Jekyll to create a {% data variables.product.prodname_pages %
  7. To create a new Jekyll site, use the `jekyll new` command, replacing _VERSION_ with the current dependency version for Jekyll. For more information, see "[Dependency versions](https://pages.github.com/versions/)" on the {% data variables.product.prodname_pages %} site.
     - If you installed Bundler:
       ```shell
+      $ bundle init
+      # Creates a gem file in the current directory
+      $ bundle add jekyll
+      # Populates it with Jekyll
       $ bundle exec jekyll <em>VERSION</em> new .
       # Creates a Jekyll site in the current directory
       ```
